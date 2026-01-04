@@ -77,6 +77,8 @@ const frameworkToRendererMap: Record<string, string> = {
 	'@storybook/preact-vite': '@storybook/preact',
 
 	'@storybook/web-components-vite': '@storybook/web-components',
+	'@storybook/stencil': '@storybook/web-components',
+	'@storybook/stencil-vite': '@storybook/web-components',
 
 	'@storybook/html-vite': '@storybook/html',
 };
